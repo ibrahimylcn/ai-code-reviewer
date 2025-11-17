@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# .env.example dosyası commit edilmeli (şablon olarak)
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+.cursor/rules/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
